@@ -1,0 +1,66 @@
+productor 2 produciendo
+Productor 2 ha producido 8
+productor 3 produciendo
+Productor 3 ha producido 13
+productor 0 produciendo
+Productor 0 ha producido 14
+productor 1 produciendo
+Productor 1 ha producido 11
+entra en consumer
+c1 [14, 11, 8, 13]
+[8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+consumer  consumiendo 8 de 2
+productor 2 produciendo
+Productor 2 ha producido 16
+[8, 11, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+consumer  consumiendo 11 de 1
+productor 1 produciendo
+Productor 1 ha producido 25
+[8, 11, 13, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+consumer  consumiendo 13 de 3
+productor 3 produciendo
+Productor 3 ha producido 19
+[8, 11, 13, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+consumer  consumiendo 14 de 0
+productor 0 produciendo
+Productor 0 ha producido 18
+[8, 11, 13, 14, 16, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+consumer  consumiendo 16 de 2
+productor 2 produciendo
+Productor 2 ha producido 30
+[8, 11, 13, 14, 16, 18, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+consumer  consumiendo 18 de 0
+productor 0 produciendo
+Productor 0 ha producido 30
+[8, 11, 13, 14, 16, 18, 19, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+consumer  consumiendo 19 de 3
+productor 3 produciendo
+Productor 3 ha producido 32
+[8, 11, 13, 14, 16, 18, 19, 25, -1, -1, -1, -1, -1, -1, -1, -1]
+consumer  consumiendo 25 de 1
+productor 1 produciendo
+Productor 1 ha producido 42
+[8, 11, 13, 14, 16, 18, 19, 25, 30, -1, -1, -1, -1, -1, -1, -1]
+consumer  consumiendo 30 de 0
+productor 0 produciendo
+Productor 0 ha producido 44
+[8, 11, 13, 14, 16, 18, 19, 25, 30, 30, -1, -1, -1, -1, -1, -1]
+consumer  consumiendo 30 de 2
+productor 2 produciendo
+Productor 2 ha producido 37
+[8, 11, 13, 14, 16, 18, 19, 25, 30, 30, 32, -1, -1, -1, -1, -1]
+consumer  consumiendo 32 de 3
+productor 3 produciendo
+Productor 3 ha producido 40
+[8, 11, 13, 14, 16, 18, 19, 25, 30, 30, 32, 37, -1, -1, -1, -1]
+consumer  consumiendo 37 de 2
+[8, 11, 13, 14, 16, 18, 19, 25, 30, 30, 32, 37, 40, -1, -1, -1]
+consumer  consumiendo 40 de 3
+[8, 11, 13, 14, 16, 18, 19, 25, 30, 30, 32, 37, 40, 42, -1, -1]
+consumer  consumiendo 42 de 1
+productor 1 produciendo
+Productor 1 ha producido 46
+[8, 11, 13, 14, 16, 18, 19, 25, 30, 30, 32, 37, 40, 42, 44, -1]
+consumer  consumiendo 44 de 0
+[8, 11, 13, 14, 16, 18, 19, 25, 30, 30, 32, 37, 40, 42, 44, 46]
+consumer  consumiendo 46 de 1
